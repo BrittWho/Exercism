@@ -1,6 +1,7 @@
 require 'minitest/autorun'
+require './HelloWorld'
 
-class HelloWorld < MiniTest::Test
+class HelloWorldTest < MiniTest::Test
   def testing_hello
     HelloWorld.hello.must_equal("Hello, World!")
   end
