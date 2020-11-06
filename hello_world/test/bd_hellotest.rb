@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require './HelloWorld'
+require '../HelloWorld'
 
 class HelloWorldTest < MiniTest::Test
   def testing_hello
